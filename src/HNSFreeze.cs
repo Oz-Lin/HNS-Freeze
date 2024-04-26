@@ -16,10 +16,10 @@ namespace CS2HNSFreeze;
 [MinimumApiVersion(129)]
 public class HNSFreeze : BasePlugin
 {
-    private const string Version = "0.0.4";
+    private const string Version = "0.0.5";
     public override string ModuleName => "HNS Freeze Plugin";
     public override string ModuleVersion => Version;
-    public override string ModuleAuthor => "lhunter3";
+    public override string ModuleAuthor => "lhunter3, Oz_Lin";
     public override string ModuleDescription => "Decoy Freeze-CT & NoFlash-T for HNS Gamemode .";
     
     public static readonly string LogPrefix = $"[HNS Freeze {Version}] ";

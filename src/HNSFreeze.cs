@@ -16,7 +16,7 @@ namespace CS2HNSFreeze;
 [MinimumApiVersion(129)]
 public class HNSFreeze : BasePlugin
 {
-    private const string Version = "0.0.5";
+    private const string Version = "0.0.6";
     public override string ModuleName => "HNS Freeze Plugin";
     public override string ModuleVersion => Version;
     public override string ModuleAuthor => "lhunter3, Oz_Lin";

@@ -117,7 +117,7 @@ public class HNSFreeze : BasePlugin
                 {
                     //setting tick where player should be unfrozen.
                     playersFrozen[player] = (Server.TickCount + Config.FreezeTime*64);
-                    Server.PrintToChatAll($" {MessagePrefix} {ChatColors.Green} {player.PlayerName} {ChatColors.White} is frozen for {ChatColors.Red} {Config.FreezeTime} seconds");
+                    Server.PrintToChatAll($" {MessagePrefix} {ChatColors.Green} {player.PlayerName}{ChatColors.White} is frozen for {ChatColors.Red}{Config.FreezeTime} seconds");
                     Logger.LogInformation($" [DECOY] {player.PlayerName} is frozen for {Config.FreezeTime} seconds");
 
                 }
